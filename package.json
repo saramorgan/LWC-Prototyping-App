@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/saramorgan.lwc-la1laxez",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve ochBttz8SBHaRPb67hav --open"
+  }
+}

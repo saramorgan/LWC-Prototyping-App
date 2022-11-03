@@ -1,0 +1,16 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-var-p-around_medium lgc-bg">
+            <div if:true={products} >
+                <template for:each={products} for:item="product">
+                    <c-child
+                        key={product.Id}
+                        product={product}
+                        onselected={handleProductSelected}
+                        class="slds-var-m-around_small">
+                    </c-child>
+                </template>
+            </div>
+        </div>
+    </article>
+</template>
